@@ -1,0 +1,47 @@
+#searchDropdown {
+    margin-left: 10%;
+    width: 80%;
+    min-height: 200px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border-width: 5px;
+    margin-top: 10px;
+    border: solid 1.5px #028090;
+    font-family: "Chalet-ParisNineteenEighty";
+}
+
+.searchItem {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    background-color: whitesmoke;
+    font-family: "Chalet-ParisNineteenEighty";
+}
+
+.searchItem:hover {
+    color: #028090;
+}
+
+#headerInput {
+    height: 35px;
+    width: 80%;
+    margin-top: 12px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-family: "Chalet-ParisNineteenEighty";
+}
+
+.btnSearch {
+    float: center;
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 1.5px #028090;
+    margin-left: -7%;
+    width: 10%;
+    background-color: white;
+    font-family: "Chalet-ParisNineteenEighty";
+}

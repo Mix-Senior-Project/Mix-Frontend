@@ -1,0 +1,61 @@
+#inviteForm {
+    border-radius: 8px;
+    border: 1px #028090 solid;
+    margin-top: 80px;
+}
+
+.search {
+    height: 42px;
+    width: 11%;
+    border: solid 1.5px #028090;
+    border-radius: 20px;
+    margin-left: -55px;
+    background-color: transparent;
+    background-color: white;
+}
+
+.search:hover {
+    background-color: whitesmoke;
+}
+
+#headerInput {
+    margin-left: 5%;
+    width: 70%;
+    height: 40px;
+    border: solid 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.searchResults {
+    margin-left: 17%;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border: solid 1.5px #028090;
+    border-radius: 10px;
+}
+
+.searchItem {
+    margin-left: 25%;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.searchItem:hover {
+    background-color: #A4F4B1;
+    border-radius: 7px;
+}
+
+.searchItemText {
+    padding-top: 5px;
+}
+
+#searchHeader {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: -20px;
+}

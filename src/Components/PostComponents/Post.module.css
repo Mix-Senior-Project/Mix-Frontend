@@ -1,0 +1,535 @@
+.postBody {
+    width:90%;
+    background-color: rgb(237, 237, 237);
+    border: #114B5F 1.5px solid;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+.postBodyGrouping {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+.postButtons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    height: 40px;
+    margin-left: 5%;
+    display: inline-flex;
+}
+
+.postButtonsGrouping {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    width: 90%;
+    height: 40px;
+    margin-left: 10%;
+    display: inline-flex;
+}
+
+.postFormButtons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    padding-left: 5%;
+    width: 50%;
+    height: 40px;
+}
+
+.buttonStyle {
+    height: 40px;
+    width: 120%;
+    background-color: #028090;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.buttonStyle:hover {
+    background-color: #3A92A6;
+}
+
+#editPostButtons {
+    margin-left: 55%;
+    float: left;
+}
+
+.cancelStyle {
+    display: none;
+}
+
+#uploadVideoButton {
+    width: 40px;
+    float: left;
+    margin-left: 25px;
+}
+
+
+#submitButton {
+    float: left;
+    margin-top: -70px;
+    margin-left: 150%;
+    width: 60%;
+}
+
+#createPostButton {
+    margin-right: 5%;
+    width: 30%;
+    float: right;
+    margin-top: -50px;
+}
+
+#editButton {
+    float: left;
+    height: 40px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+#editButton {
+    float: left;
+    height: 40px;
+    border-radius: 20px;
+    width: 120px;
+    margin-left: -15px;
+}
+
+#editButtonMinimized {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: -50%;
+}
+
+#postHeader {
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+#postHeaderRight {
+    float: right;
+    margin-right: 5%;
+    height: 50px;
+    width: 120px;
+}
+
+#postOptionsFormatting {
+    margin-left: 47%;
+}
+
+.userName {
+    margin-left: 5%;
+    border: none;
+    float: left;
+    text-align: left;
+    width: auto;
+    background-color: rgb(237, 237, 237);
+}
+
+.userName:hover {
+    color: #3A92A6;
+}
+
+.groupName {
+    border: none;
+    float: left;
+    text-align: left;
+    width: auto;
+    background-color: transparent;
+}
+
+.groupName:hover {
+    color: #3A92A6;
+}
+
+#postContent {
+    margin-top: -20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    margin-right: 0%;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    float: left;
+    overflow-wrap: break-word;
+}
+
+.postEditTextArea {
+    width: 100%;
+    height: 80px;
+    border: transparent 2px groove;
+    border-radius: 3px;
+    resize: none;
+    min-height: 80px;
+    max-height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.postEditTextArea:focus {
+    outline-style: none;
+}
+
+#heart {
+    height: 25px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#editIcon {
+    height: 25px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    float: left;
+    margin: 5%;
+}
+
+#editIconMinimized {
+    height: 25px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    float: center;
+    margin: 5%;
+}
+
+#editText {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 100%;
+}
+
+#submitText {
+    float: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 100%;
+}
+
+#buttonGroup {
+    display: inline;
+    height: 40px;
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    margin-left: -5%;
+}
+
+#buttonGroupItem {
+    float: left;
+}
+
+.buttonItemLeft {
+    width: 50%;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right-width: 5px;
+    background-color: #028090;
+}
+
+.buttonItemLeft:hover {
+    background-color: #3A92A6;
+}
+
+.buttonItemRight {
+    width: 50%;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #028090;
+}
+
+.buttonItemRight:hover {
+    background-color: #3A92A6;
+}
+
+#likeImage {
+    margin-top: 5px;
+    position: flex;
+    border: none;
+    background-color: transparent;
+}
+
+#dislikeImage {
+    margin-top: 5px;
+    margin-left: -10px;
+    border: none;
+    background-color: transparent;
+}
+
+#likeCount {
+    margin-top: -25px;
+    margin-left: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+    float: right;
+    color: white;
+}
+
+#commentButton {
+    width: 40%;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #028090;
+    margin-left: 5%;
+    vertical-align: middle;
+    color: white;
+}
+
+#commentsButton {
+    height: 40px;
+    width: 50%;
+    font-size: 11.5px;
+    border-radius: 8px;
+    border: none;
+    background-color: #028090;
+    vertical-align: middle;
+    color: white;
+}
+
+#commentForm {
+    background-color: white;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+    border-radius: 8px;
+    border: 1px solid #028090;
+    margin-bottom: 10px;
+}
+
+#textInput {
+    background-color: #96e6b3;
+    border-radius: 4px;
+    border: 0.5px soild #028090;
+    color: black;
+    margin-top: 12px;
+    width: 65%;
+    height: 60%;
+    font-family: "Chalet-ParisNineteenEighty";
+    resize: none;
+    font-size: 16px;
+    float: left;
+    margin-left: -10%;
+}
+
+#postComment {
+    height: 50%;
+    width: 20%;
+    font-size: 11.5px;
+    border-radius: 8px;
+    border: none;
+    background-color: #96e6b3;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#mediaSection {
+    margin-bottom: 30px;
+}
+
+#photoStyle {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+#videoStyle {
+    width: 100%;
+    height: 200px;
+}
+
+#editLabel {
+    float: right;
+    margin-right: 15px;
+}
+
+.comments {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    border-top: #028090 1px solid;
+}
+
+#pfp {
+    width: auto;
+    height: 80%;
+    margin-right: 5px;
+    border-radius: 50%;
+    float: left;
+    margin-left: -37%;
+    margin-top: 7px;
+}
+
+#default_pfp {
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 50%;
+    float: left;
+    margin-left: -37%;
+    margin-top: 7px;
+}
+
+.deleteComment {
+    float: right;
+    margin-bottom: 12px;
+    height: 20px;
+    width: 60px;
+    font-size: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #96e6b3;
+    color: white;
+}
+
+.deleteComment:hover {
+    background-color: #CCFCCB;
+}
+
+.comment {
+   width: 100%;
+   margin-bottom: 15px;
+   border-bottom: #028090 0.5px solid;
+   float: left;
+   font-size: 20px;
+}
+
+#commentButtonSection {
+    float: right;
+    padding-bottom: 5px;
+    height: 40px;
+    width: 40%;
+    display: inline-block;
+}
+
+#commentsSection {
+    border-top: solid;
+    border-top-color: #028090;
+    border-top-width: 2.5px;
+    width: 100%;
+    height: auto;
+}
+
+#arrow {
+    height: 11px;
+}
+
+#videoURLInput {
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #114B5F;
+}
+
+#videoInputFormatting {
+    display: inline;  
+    width: 100%;
+    height: 100%;
+}
+
+#videoInputLabel {
+    margin-left: 5%;
+    float: left;
+}
+
+.videoURLInputTextArea {
+    margin-top: 2%;
+    width: 60%;
+}
+
+.videoInputSubmitButton {
+    height: 55%;
+    width:10%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #028090;
+}
+
+.videoInputSubmitButton:hover {
+    background-color: #3A92A6;
+}
+
+#hideForm {
+    float: right;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    width: 60px;
+    height: 40px;
+}
+
+#uploaderBody {
+    width: 100%;
+    height: 100%;
+    border: #114B5F 1.5px solid;
+    border-radius: 20px;
+    background-color: rgb(228, 228, 228);
+}
+
+#MediaUploaderHeader {
+    margin-left: 25%;
+}
+
+.uploadMediaSelector {
+    background-color: #028090;
+    width: 40%;
+    height: 75px;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    border-radius: 5px;
+}
+
+.uploadMediaSelector:hover {
+    background-color: #3A92A6;
+}
+
+#MediaInputBox {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#MediaInputBoxShortened {
+    margin-left: 5%;
+    width: 70%;
+}
+
+.badge {
+    height: 25px;
+    margin-top: 18px;
+    float: left;
+}
+
+.createComment {
+    height: 75px;
+    margin-left: 30%;
+}

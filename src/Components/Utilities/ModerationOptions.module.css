@@ -1,0 +1,66 @@
+#uploaderBody {
+    background-color: whitesmoke;
+    border: #114B5F 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    width: 100px;
+    height: fit-content;
+    padding-bottom: 2px;
+    float: right;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+.maximized { 
+    height: 8%;
+}
+
+.minimized {
+    height: 4%;
+}
+
+#optionsBtn {
+    font-size: 25px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    margin-top: -7px;
+    float: right;
+    background-color: transparent;
+}
+
+#optionsProfileBtn {
+    font-size: 25px;
+    width: 10%;
+    border: none;
+    height: 40px;
+    float: right;
+    background-color: transparent;
+}
+
+#optionsBtnText { 
+    font-size: 45px;
+    color: #114B5F;
+    margin-top: -35px;
+}
+
+.postOptionItem {
+    height: 30px;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    width: 98%;
+    background-color: whitesmoke;
+}
+
+.postOptionItem:hover {
+    background-color: gainsboro;
+}
+
+#postOptionText {
+    vertical-align: middle;
+    height: 25px;
+    margin-left: 5%;
+    margin-top: 5px;
+    font-size: 10px;
+}

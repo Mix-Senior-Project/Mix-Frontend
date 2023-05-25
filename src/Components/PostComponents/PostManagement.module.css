@@ -1,0 +1,87 @@
+#postManagerMargin {
+    margin-top: 25px;
+}
+
+#profileBanner {
+    height: 100px;
+    background-color: gray;
+}
+
+#profileBannerImg {
+    height: 100%;
+    width: 100%;
+}
+
+#profilePhoto {
+    height: 75px;
+    width: 75px;
+    border-radius: 80px;
+    background-color: gray;
+    margin: 20px;
+    float: left;
+    vertical-align: middle;
+}
+
+#displayName {
+    color: black;
+    font-size: 20px;
+}
+
+.createPostButton {
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 200%;
+    background-color: #96E6B3;
+}
+
+.createPostButton:hover {
+    background-color: #b0e2c2;
+}
+
+.profileHeaderButtonBar {
+    width: 100%;
+    height: 70px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#userInfo {
+    height: 150px;
+    vertical-align: middle;
+}
+
+#userInfoTextBlock {
+    padding-left: 20px;
+    float: left;
+}
+
+#bioText {
+    color: black;
+    float: left;
+    font-size: 15px;
+}
+
+#findFriendsPopup {
+    width: 80%;
+    min-height: 200px;
+    margin-left: 10%;
+    background-color: whitesmoke;
+    border: 2px solid #028090;
+    border-radius: 20px;
+}
+
+#findFriendsHeader {
+    padding-top: 30px;
+    color: black;
+}
+
+#findFriendsText {
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 30px;
+}

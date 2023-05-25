@@ -1,0 +1,349 @@
+#header {
+    font-size: 25px;
+    border-bottom: 1px solid #028090;
+}
+
+#to {
+    font-size: 20px;
+}
+
+#addImg {
+    height: 25px;
+}
+
+#add {
+    border: none;
+    background-color: transparent;
+    float: right;
+    margin-top: -75px;
+    width: 75px;
+    height: 75px;
+}
+
+#backBtn {
+    border: none;
+    background: whitesmoke;
+    float: left;
+}
+
+#backBtnOther {
+    border: none;
+    background: whitesmoke;
+    float: left;
+    margin-top: 40px;
+}
+
+#search {
+    border-radius: 8px;
+    border: none;
+    height: 25px;
+    width: 80%;
+    font-size: 20px;
+    font-family: "Chalet-ParisNineteenEighty";
+}
+
+#newMessage {
+    font-size: 25px;
+}
+
+#recipientBtn {
+    width: 30%;
+    height: 40px;
+    background-color: #96e6b3;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#recipientBtn:hover {
+    color: #028090;
+    font-size: 12px;
+}
+
+#to_pfp {
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+    margin-right: -100px;
+}
+
+#messageInput {
+    border: #028090;
+    border-radius: 8px;
+    width: 500px;
+    height: 50px;
+    font-size: 16px;
+}
+
+#input {
+    bottom: 0;
+    width: 50%;
+    float: center;
+    margin-left: 25%;
+}
+
+#sendMessage {
+    width: 300px;
+    height: 40px;
+    background-color: #96e6b3;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#sendMessage:hover {
+    color: #028090;
+    font-size: 12px;
+}
+
+.messages {
+    float: right;
+    height: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.myMessage {
+    float: right;
+    margin-left: 80%;
+    font-size: 20px;
+    background-color: #96e6b3;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.myMessage button {
+    float: right;
+    background-color: #028090;
+    color: white;
+    border: none;
+    margin-top: 3px;
+    border-radius: 8px;
+}
+
+.otherMessage {
+    float: right;
+    margin-right: 55%;
+    font-size: 20px;
+    background-color: #96e6b3;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 45%;
+}
+
+#today {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#myDate {
+    margin-bottom: 5px;
+    margin-top: -5px;
+    margin-right: 2px;
+    float: right;
+    font-size: 14px;
+}
+
+#otherDate {
+    margin-bottom: 5px;
+    margin-top: -5px;
+    margin-right: 2px;
+    float: left;
+    font-size: 14px;
+}
+
+#pfp {
+    float: left;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+#default_pfp {
+    float: left;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-right: 5px;
+    background-color: white;
+}
+
+#back {
+    float: left;
+    margin-top: -25px;
+}
+
+#backToDMs {
+    float: left;
+    margin-top: 10px;
+}
+
+.messagePreview {
+    height: 50px;
+    font-size: 25px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.messagePreview:hover {
+    height: 50px;
+    font-size: 25px;
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+}
+
+#previewPfp {
+    height: 25px;
+    float: left;
+    margin-right: -100px;
+}
+
+.textPreview {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#datePreview {
+    float: right;
+    margin-left: -40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.conversation {
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    width: 100%;
+}
+
+#searchRecipient {
+    margin-top: 20px;
+}
+
+.search {
+    height: 40px;
+    width: 60px;
+    border: solid 1.5px #028090;
+    border-radius: 50px;
+    margin-left: -6%;
+    background-color: white;
+}
+
+.search:hover {
+    background-color: whitesmoke;
+}
+
+#headerInput {
+    margin-left: 5%;
+    width: 70%;
+    height: 40px;
+    border: solid 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.searchResults {
+    margin-left: 17%;
+    width: 70%;
+    height: auto;
+    border: solid 1.5px #028090;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.searchItemText {
+    padding-top: 5px;
+}
+
+.searchItemText:hover {
+    color: #028090;
+}
+
+#searchHeader {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#error {
+    color: #E7785F;
+}
+
+#delete {
+    float: right;
+    background-color: #028090;
+    color: white;
+    border: none;
+    margin-top: 3px;
+    border-radius: 8px;
+}
+
+#startMessage {
+    background-color: #028090;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 20%;
+    height: 20%;
+    font-size: 20px;
+}
+
+#max {
+    color: #E7785F;
+}
+
+#warning {
+    font-size: 14px;
+    color: #E7785F;
+}
+
+#mutual {
+    color: #E7785F;
+}
+
+#recipients {
+    color:#028090;
+}
+
+#loading {
+    margin-top: 10%;
+}
+
+.name:hover {
+    color:#028090;
+}
+
+#refreshBtn {
+    border: none;
+    background: transparent;
+    float: right;
+}
+
+#refresh {
+    float: right;
+    margin-top: -50px;
+    height: 20px;
+}
+
+#notification {
+    border-radius: 50%;
+    background-color:#E7785F;
+    height: 25px;
+    width: 25px;
+    margin-bottom: -6%;
+}

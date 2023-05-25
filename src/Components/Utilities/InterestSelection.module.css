@@ -1,0 +1,73 @@
+#InterestSelection{
+    margin-top: 10px;
+    border: #114B5F 1px solid;
+    width: 80%;
+    margin-left: 10%;
+    height: 50%;
+}
+
+#input {
+    height: 30px;
+    border-bottom: #114B5F 1px solid;
+}
+
+#uploadIcon {
+    height: 40px;
+    width: 40px;
+    background: whitesmoke url("../Static-Images/upload.png") left no-repeat;
+    border: none;
+    margin-right: 5px;
+    margin-top: 7.5%;
+    margin-left: 4%;
+    float: left;
+}
+
+.cancelStyle {
+    display: none;
+}
+
+#text {
+    resize: none;
+    text-align: center;
+    font-size: 16px;
+    height: 20px;
+    margin-top: 2px;
+    width: 70%;
+    font-family: "Chalet-ParisNineteenEighty";
+}
+
+#results {
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+#submit {
+    height: 50px;
+    width: 12.5%;
+    font-size: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #028090;
+    display: block;
+    float: right;
+    margin-top: -70px;
+    margin-right: 5px;
+}
+
+#uploadBox {
+    background-color: #f5bc94;
+    border-radius: 8px;
+}
+
+#inputFormatting {
+    margin-left: 15%;
+    width: 70%;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+#inputBar {
+    display:inline-block;
+    width: 100%;
+    border-bottom: #114B5F 1px solid;
+}

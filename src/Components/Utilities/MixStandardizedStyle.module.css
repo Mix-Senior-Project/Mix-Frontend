@@ -1,0 +1,361 @@
+.inputBlock {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    margin-top: 15px;
+    border: #114B5F 0.5px solid;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.inputBlock:hover {
+    border-color: #0D5C63;
+}
+
+.inputHeaderBlock {
+    width: 100%;
+    height: 40%;
+    margin-top: -5px;
+}
+
+.inputHeaderText {
+    float: left;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.inputValueBlock {
+    width: 100%;
+    height: 70%;
+}
+
+.inputTextBox {
+    float: left;
+    width: 90%;
+    height: 60%;
+    font-size: 15px;
+    margin-left: 5%;
+    border-radius: 5px;
+    font-family: 'Chalet-ParisNineteenEighty';
+}
+
+.inputUploadButton {
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    background-color: whitesmoke;
+    color: #114B5F;
+    float: left;
+}
+
+.inputUploadButton:hover {
+    color: #0D5C63;
+    font-size: 12px;
+}
+
+.inputUploadSuccessful {
+    width: 90%;
+    height: 50%;
+    margin-top: -10px;
+    margin-left: 5%;
+    background-color: whitesmoke;
+    color: rgb(6, 159, 6);
+    float: left;
+}
+
+.inputUploadUnsuccessful {
+    width: 90%;
+    height: 50%;
+    margin-top: -10px;
+    margin-left: 5%;
+    background-color: whitesmoke;
+    color: rgb(255, 0, 0);
+    float: left;
+}
+
+#submit {
+    height: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    border-color: #028090;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.submitButton {
+    width: 200px;
+    height: 40px;
+    background-color: #028090;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.submitButton:hover {
+    background-color: #3A92A6;
+}
+
+.cancelStyle {
+    display: none;
+}
+
+#inputSectionFormatting {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.bubbleItem {
+    border-radius: 12px;
+    border: 0.5px solid #114B5F;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.bubbleItem:hover {
+    background-color: #CCFCCB;
+}
+
+#hidePass {
+    width: 20%;
+    height: 30px;
+    background-color: #96E6B3;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    float: right;
+    margin-top: -60px;
+    margin-right: 20px;
+}
+
+#hidePass:hover {
+    background-color: #CCFCCB;
+    color:white;
+}
+.dropdownSubmit {
+    height: 30px;
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    background-color: #028090;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.dropdownSubmit:hover {
+    background-color: #3A92A6;
+}
+
+.dropdown {
+    width: 60%;
+    height: 50%;
+    margin-top: -10px;
+    margin-left: 5%;
+    font-size: 10px;
+    background-color: transparent;
+    float: left;
+    font-family: 'Chalet-ParisNineteenEighty';
+}
+
+#contentBody {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.follower {
+    border: solid;
+    border-color: #157A6E;
+    border-width: 1px;
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+.groupFollower {
+    width: 105.4%;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    height: 60px;
+}
+
+.followerName {
+    float: left;
+    border: none;
+    background-color: transparent;
+}
+
+.followerName:hover {
+    font-style: italic;
+    color: #3A92A6;
+}
+
+.followerPFP {
+    height: 40px;
+    width: 40px;
+    border-radius: 35px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.badge {
+    margin-top: -2px;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#userRoleSection {
+    margin-left: 22%;
+    width: 25%;
+    height: 20px;
+    display: inline;
+}
+
+.followerRole {
+    float: left;
+    margin-top: 2px;
+}
+
+#spacing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bodySection {
+    height: 100%;
+    border-left: solid;
+    border-right:solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#pageTitle {
+    background-color: #57CC99;
+    height: 60px;
+    padding-top: 2px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+#notificationsFilterBar {
+    height: 60px;
+    width: 100%;
+    background-color: #57CC99;
+    border-bottom: solid;
+    border-bottom-color:black;
+    border-bottom-width: 2px;
+    color: black;
+}
+
+.notificationFilterButton {
+    float: left;
+    width: 33%;
+    height: 83%;
+    padding-top: 10px;
+}
+
+.notificationFilterButton:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #96E6B3;
+}
+
+#notificationsSection {
+    height: 100%;
+    width: 95%;
+    text-align: center;
+    border: none;
+}
+
+.notification {
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 25px;
+    text-align: center;
+    border-bottom: solid;
+    border-bottom-color:black;
+    border-bottom-width: 1px;
+}
+
+.largeNotification {
+    height: 120px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 25px;
+    text-align: center;
+    border-bottom: solid;
+    border-bottom-color:black;
+    border-bottom-width: 1px;
+}
+
+.notification:hover {
+    color: #57CC99;
+    font-size: 14px;
+}
+
+.groupHover:hover {
+    color: #57CC99;
+    font-style: italic;
+}
+
+.inviteAcceptButton {
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    border: solid 1.5px #57CC99;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.inviteAcceptButton:hover {
+    background-color: #57CC99;
+}
+
+.inviteDeclineButton {
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    border: solid 1.5px #B74F6f;
+    border-radius: 20px;
+}
+
+.inviteError {
+    margin-left: 27%;
+    width: 300px;
+    height: 70px;
+    background-color: transparent;
+    border: solid 1.5px #B74F6f;
+    border-radius: 20px;
+}
+
+.inviteDeclineButton:hover {
+    background-color: #B74F6f;
+}
+
+.backButton {
+    margin-right: 8%;
+    margin-top: -5.5%;
+    float: right;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #96E6B3;
+}
+
+.backButton:hover {
+    background-color: #bee0cb;
+}

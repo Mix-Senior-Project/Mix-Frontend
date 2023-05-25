@@ -1,0 +1,33 @@
+#body {
+    background-color: #CCFCCB;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+.navigationBtn {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #96E6B3;
+}
+
+.navigationBtn:hover {
+    background-color: #6cf09c;
+}
+
+#eventHeader {
+    margin-top: 40px;
+    color: #028090;
+}
+
+#eventDetails {
+    text-align: left;
+    margin-left: 40%;
+}
+
+#eventLabel {
+    color: #028090;
+}

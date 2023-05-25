@@ -1,0 +1,28 @@
+#right {
+    background-color: #73c2fb;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style:none;
+    border-color: black;
+    width: 100%;
+    margin-inline-start: -100%;
+}
+
+#topTrend {
+    padding-top: 1px;
+    height: 100px;
+    width: 100%;
+    color: black;
+}
+
+.trend {
+    height: 100px;
+    width: 100%;
+    color: black;
+    border-top: 3px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: ridge;
+    border-color: #4169e1;
+}

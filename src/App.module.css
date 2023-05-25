@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.appBody {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+}
+
+#leftSidebar {
+  border-radius: 10px;
+  margin-top: 80px;
+  height: 50%;
+  width: 22.5%;
+  display: inline-block;
+  position: fixed;
+}
+
+#rightSidebar {
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 72%;
+  padding-left: 25%;
+  width: 22.5%;
+  height: 50%;
+  position: absolute;
+  float: left;
+}
+
+#contentBody {
+  margin-left: 24%;
+  width: 47.5%;
+  height: 1125px;
+  margin-top: 60px;
+  background-color: whitesmoke;
+  display: inline-block;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.signInButton {
+  height: 40px;
+  width: 80%;
+  margin-left: 3%;
+  background-color: #96E6B3;
+  border-radius: 4px;
+  border: none;
+}
+
+.signInButton:hover {
+  background-color: #CCFCCB;
+}
+
+#popupBorder {
+  margin-top: 10px;
+  border: #4169e1 0.5px solid;
+  border-radius: 10px;
+}
+

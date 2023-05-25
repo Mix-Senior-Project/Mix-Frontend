@@ -1,0 +1,154 @@
+#bodyMaximized {
+    width: 100%;
+    min-height: 315px;
+    max-height: 500px;
+    background-color: #57CC99;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 0px;
+}
+
+#bodyMinimized {
+    width: 100%;
+    min-height: 215px;
+    max-height: 500px;
+    background-color: #57CC99;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 0px;
+}
+
+#headerSpacing{
+    margin-bottom: 100px;
+}
+
+#profileBanner {
+    height: 100px;
+    background-color: #57CC99;
+}
+
+#profileBannerImg {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+#profilePhoto {
+    height: 75px;
+    width: 75px;
+    border-radius: 80px;
+    background-color: #57CC99;
+    margin: 20px;
+    float: left;
+    vertical-align: middle;
+}
+
+#displayName {
+    color: black;
+    font-size: 20px;
+}
+
+#profileHeaderButtonBar {
+    background-color: aqua;
+    display: inline;
+    width: 100%;
+    height: 70px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+}
+
+.profileButton {
+    margin-left: 4%;
+    height: 50px;
+    width: 20%;
+    float: left;
+    background-color: whitesmoke;
+
+    border: solid;
+    border-radius: 5px;
+    border-color: solid 1.5 #57CC99;
+}
+
+.profileButton:hover {
+    background-color: #CCFCCB;
+}
+
+#profileInfo {
+    height: 150px;
+    vertical-align: middle;
+}
+
+#profileInfoTextBlock {
+    width: 70%;
+    float: left;
+    text-align: left;
+    height: 70px;
+}
+
+#profileInfoTextBlockHeader {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#bioText {
+    float: left;
+    font-size: 15px;
+    margin-top: -2%;
+}
+
+#postCount {
+    font-size: 15px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+#groupInterests {
+    display: inline-block;
+}
+
+#interests {
+    margin-top: 0%;
+    display: inline-block;
+    height: 100%;
+}
+
+#groupList {
+    display: inline-block;
+}
+
+.groupName {
+    margin-left: 10px;
+    border: none;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+.groupName:hover {
+    background-color: #CCFCCB;
+    border: solid 1.5px black;
+}
+
+#memberListBody {
+    width: 400px;
+    vertical-align: middle;
+}
+
+.groupProfileButton:hover {
+    background-color: #CCFCCB;
+}
+
+#popdown {
+    width: 100%;
+    height: 180px;
+    background-color: #96E6B3;
+    border-radius: 20px;
+}

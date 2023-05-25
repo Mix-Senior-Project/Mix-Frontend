@@ -1,0 +1,67 @@
+#contentBody {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.follower {
+    border: solid;
+    border-color: #157A6E;
+    border-width: 1px;
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+.groupFollower {
+    width: 105.4%;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    height: 60px;
+}
+
+.followerName {
+    float: left;
+    border: none;
+    background-color: transparent;
+}
+
+.followerName:hover {
+    font-style: italic;
+    color: #3A92A6;
+}
+
+.followerPFP {
+    height: 40px;
+    width: 40px;
+    border-radius: 35px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.badge {
+    margin-top: -2px;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#userRoleSection {
+    margin-left: 22%;
+    width: 25%;
+    height: 20px;
+    display: inline;
+}
+
+.followerRole {
+    float: left;
+    margin-top: 2px;
+}
+
+#spacing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

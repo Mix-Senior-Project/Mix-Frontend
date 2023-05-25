@@ -1,0 +1,72 @@
+.interests {
+    height: 40px;
+    width: 80%;
+    background-color: #028090;
+    color: whitesmoke;
+    border-radius: 4px;
+    border: none; 
+    margin-top: 15px;
+}
+
+.interests:hover{
+    background-color: #456990;
+}
+
+#interestBox {
+    height: 100%;
+    margin: 2.5%;
+    width: 90%;
+    border: #028090 1.5px solid;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+
+#interestBoxHeader { 
+    margin-top: 2.5px;
+}
+
+#interestBoxSubtitle { 
+    margin-top: 2.5px;
+}
+
+#interestSection {
+    margin-bottom: 5%;
+}
+
+.recommendedInterestHeader {
+    width: 100%;
+    border: none;
+    padding-top: 6px;
+    background-color: transparent;
+}
+
+.recommendedInterestHeader:hover {
+   background-color: rgb(210, 210, 210); 
+}
+
+#recommendedGroups {
+    padding-bottom: 15px;
+}
+
+.recommendedGroupHeader {
+    background-color: #028090;
+    margin-left: 5%;
+    width: 90%;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding-top: 6px;
+}
+
+.recommendedGroupHeader:hover {
+    background-color: #456990;
+ }
+
+ .recommendedGroupBackground {
+    width: 90%;
+    margin-left: 5%;
+    background-color: transparent;
+    border: solid;
+    border-color: #028090;
+    border-radius: 20px;
+ }
